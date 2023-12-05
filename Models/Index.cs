@@ -12,11 +12,12 @@ namespace TypeDataCnsl01.Models
     public class Index 
     {
         public int Id { get; set; }
-        public string Name { get; set; }        
+        public string Name { get; set; }
+        // double
         // decimal
         // float        
-        public double IndexValue { get; set; }
-        public double Discount { get; set; }
+        public decimal IndexValue { get; set; }
+        public decimal Discount { get; set; }
         public string Description { get; set; }
     }
 }
