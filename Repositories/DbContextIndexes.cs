@@ -12,9 +12,7 @@ using TypeDataCnsl01.Models;
 namespace TypeDataCnsl01
 {
     public class DbContextIndexes : DbContext
-    {
-
-        static SQLiteConnection sqliteConnection;
+    {   
         
         public DbContextIndexes() : base("DefaultConnection")
         {
