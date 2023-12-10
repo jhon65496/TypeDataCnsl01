@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TypeDataCnsl01.ViewModels.Views;
+// CultureInfo
 
 namespace TypeDataCnsl01
 {
